@@ -48,6 +48,7 @@ import imgDuaLipa from './imgDuaLipa.jpg'
 import imgEminem from './imgEminem.jpg'
 import imgRihanna from './imgRihanna.jpg'
 import imgSabrina from './imgSabrina.jpg'
+import chekmark from './chekmark.jpg'
 import song1 from  './song1.mp3'
 import song2 from  './song2.mp3'
 import song3 from  './song3.mp3'
@@ -76,7 +77,8 @@ export const assets = {
     arrow_left,
     arrow_right,
     spotify_logo,
-    clock_icon
+    clock_icon,
+    chekmark,
 }
 
 export const albumsData = [
@@ -92,7 +94,7 @@ export const albumsData = [
         name: "Top 50 UK",
         image: imgTop50,
         desc:"Your weekly update of the most played tracks",
-        bgColor:"#22543d"
+        bgColor:"#7d284c"
     },
     {   
         id:2,
@@ -130,7 +132,7 @@ export const songsData = [
         name: "Song One",
         image: img1,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Licence-free song",
         duration:"3:00"
     },
     {
@@ -138,7 +140,7 @@ export const songsData = [
         name: "Song Two",
         image: img2,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Licence-free song",
         duration:"2:20"
     },
     {
@@ -146,7 +148,7 @@ export const songsData = [
         name: "Song Three",
         image: img3,
         file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Licence-free song",
         duration:"2:32"
     },
     {
@@ -154,7 +156,7 @@ export const songsData = [
         name: "Song Four",
         image: img4,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Licence-free song",
         duration:"2:50"
     },
     {
@@ -162,7 +164,7 @@ export const songsData = [
         name: "Song Five",
         image: img5,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Licence-free song",
         duration:"3:10"
     },
     {
@@ -170,7 +172,7 @@ export const songsData = [
         name: "Song Six",
         image: img14    ,
         file:song3,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Licence-free song",
         duration:"2:45"
     },
     {
@@ -178,7 +180,7 @@ export const songsData = [
         name: "Song Seven",
         image: img7,
         file:song1,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Licence-free song",
         duration:"2:18"
     },
     {
@@ -186,7 +188,7 @@ export const songsData = [
         name: "Song Eight",
         image: img12,
         file:song2,
-        desc:"Put a smile on your face with these happy tunes",
+        desc:"Licence-free song",
         duration:"2:35"
     }
 ]
@@ -204,48 +206,48 @@ export const artistsData = [
         name: "Eminem",
         image: imgEminem,
         desc: "82,977,678 monthly listeners",
-        bgColor: '#322f2a',
+        bgColor: '#202020',
     },
     {
         id:2,
         name: "Billie Eilish",
         image: imgBillie,
         desc: "102,387,128 monthly listeners",
-        bgColor: '#322f2a',
+        bgColor: '#061320',
     },
     {
         id:3,
         name: "Coldplay",
         image: imgColdplay,
         desc: "86,573,436 monthly listeners",
-        bgColor: '#322f2a',
+        bgColor: '#0e3f56',
     },
     {
         id:4,
         name: "Rihanna",
         image: imgRihanna,
         desc: "84,494,808 monthly listeners",
-        bgColor: '#322f2a',
+        bgColor: '#3d4040',
     },
     {
         id:5,
         name: "Sabrina Carpenter",
         image: imgSabrina,
         desc: "77,611,648 monthly listeners",
-        bgColor: '#322f2a',
+        bgColor: '#0b1734',
     },
     {
         id:6,
         name: "Calvin Harris",
         image: imgCalvin,
         desc: "73,834,087 monthly listeners",
-        bgColor: '#322f2a',
+        bgColor: '#186762',
     },
     {
         id:7,
         name: "Dua Lipa",
         image: imgDuaLipa,
-        desc: "Artist",
-        bgColor: '#322f2a',
+        desc: "73,483,181 monthly listeners",
+        bgColor: '#183f37',
     }
 ]

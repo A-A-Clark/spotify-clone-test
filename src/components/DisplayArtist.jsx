@@ -15,6 +15,7 @@ const DisplayAlbum = () => {
       <div className="mt-10 flex gap-8 flex-col md:flex-row md:items-end">
         <img className="w-48 rounded" src={artistData.image} alt="" />
         <div className="flex flex-col">
+            {/* <img src={assets.chekmark} alt="" /> */}
           <p>Verified Artist</p>
           <h2 className="text-5xl font-bold mb-4 md:text-7xl">
             {artistData.name}
